@@ -11,10 +11,22 @@ html {
   font-family: sans-serif;
 }
 
+.container {
+  margin: 15rem;
+  max-height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  color: #ffe61b;
+  text-align: center;
+  font-size: 10rem;
+}
+
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+
   justify-content: center;
   align-items: center;
 }
